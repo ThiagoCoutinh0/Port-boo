@@ -5,6 +5,12 @@ body {
 header.jumbotron {
     background-color: #343a40;
     color: white;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 header.jumbotron h1, header.jumbotron p {
@@ -28,4 +34,29 @@ section#sobre img {
 footer {
     background-color: #343a40;
     color: white;
+}
+
+section#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#skills ul li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.navbar-brand i {
+    color: white;
+}
+
+.navbar-brand i:hover {
+    color: #007bff;
 }
